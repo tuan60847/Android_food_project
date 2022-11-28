@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DoAn</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Về tôi</string>
+    <string name="exit">Thoát</string>
+    <string name="title_activity_login">Trang Đăng Nhập</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật Khẩu</string>
+    <string name="action_sign_in">Đăng Nhập Hoặc Tạo Mật Khẩu Mới</string>
+    <string name="action_sign_in_short">Đăng Nhập</string>
+    <string name="welcome">Xin Chào !</string>
+    <string name="invalid_username">Không Đúng tài khoảng</string>
+    <string name="invalid_password">Mật khẩu phải hơn 5 ký tự</string>
+    <string name="login_failed">Đăng Nhập Thất Bại</string>
+    <string name="ID">Mã</string>
+    <string name="Price">Giá</string>
+    <string name="Catalog">Loại</string>
+    <string name="Add">Thêm</string>
+    <string name="Reset">Cài lại</string>
+    <string name="Repair">Sửa</string>
+    <string name="Search">Tìm</string>
+    <string name="Username">Tài Khoảng</string>
+    <string name="Password">Mật Khẩu</string>
+    <string name="Name">Tên</string>
+    <string name="Delete">Xóa</string>
+    <string name="ID_CataLog">Mã Loại</string>
+    <string name="Name_Catalog">Tên Loại</string>
+    <string name="Food">Thức Ăn</string>
+    <string name="Change_Pic">Thay Hình</string>
+    <string name="CATALOG">LOẠI</string>
+    <string name="Numberic">Số Lượng</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/bg_setting_main">
+
+    <ImageView
+        android:id="@+id/imageAdapterCat"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/rerise" />
+
+    <TextView
+        android:id="@+id/txtIDCata"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="MaLoai"
+        android:textColor="@color/Text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAdapterCat" />
+
+    <TextView
+        android:id="@+id/txtNameCata_apdater"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="TenLoai"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtIDCata"
+        app:layout_constraintStart_toStartOf="@+id/txtIDCata"
+        app:layout_constraintTop_toBottomOf="@+id/txtIDCata"
+        tools:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btndel_cat_adapter"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/del_cat_adapter"
+        android:text="-"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameCata_apdater"
+        app:layout_constraintVertical_bias="1.0"
+        tools:textSize="24sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

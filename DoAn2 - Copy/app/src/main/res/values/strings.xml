@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">DoAn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">about</string>
+    <string name="exit">exit</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="ID">ID</string>
+    <string name="Price">Price</string>
+    <string name="Catalog">Catalog</string>
+    <string name="Add">Add</string>
+    <string name="Reset">Reset</string>
+    <string name="Repair">Repair</string>
+    <string name="Search">Search</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Name">Name</string>
+    <string name="Delete">Delete</string>
+    <string name="ID_CataLog">ID Catalog</string>
+    <string name="Name_Catalog">Name Catalog</string>
+    <string name="Food">Food</string>
+    <string name="Change_Pic">Change_Pic</string>
+    <string name="CATALOG">CATALOG</string>
+
+    <string name="Numberic">Numberic</string>
+</resources>
